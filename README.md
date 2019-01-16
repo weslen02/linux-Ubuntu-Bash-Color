@@ -12,19 +12,22 @@ Change the color of bash and show the branch that is working
 
 '
 
-    if [ "$color_prompt" = yes ]; then
+        if [ "$color_prompt" = yes ]; then
         # ORIGINAL_OLD
         #PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' 
 
-    #COPIED FROM ELSE THAT IS NOT BEING USED
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
-
+        #COPIED FROM ELSE THAT IS NOT BEING USED
+        PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
     else
-    #ORIGINAL_OLD
-    #PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+        #ORIGINAL_OLD
+        #PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 
-    #NEW MODIFIED TO THE GIT
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[00;37m\]\w\[\033[01;36m\]$(parse_git_branch)\[\033[00;32m\]\[\033[00m\]\$ '
+        #NEW MODIFIED TO THE GIT
+        PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[00;37m\]\w\[\033[01;36m\]$(parse_git_branch)\[\033[00;32m\]\[\033[00m\]\$ '
+
+
+    fi
+    unset color_prompt force_color_prompt
       
 
 > **User .bashrc**
