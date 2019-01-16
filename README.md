@@ -1,7 +1,7 @@
 # Linux Ubuntu - Changes
 Change the color of bash and show the branch that is working
 
-# How it works for me:
+## How it works for me:
 
 **Root .bashrc**
 
