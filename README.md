@@ -59,7 +59,7 @@ Steps:
     unset color_prompt force_color_prompt
 \
 **PLUS PLUS:**
-\
+
 > Copy and paste in the end file .bashrc:
 
 '
