@@ -3,9 +3,9 @@ Change the color of bash and show the branch that is working
 
 # How it works for me:
 
->  **Root .bashrc**
+**Root .bashrc**
 
-Steps:
+> Steps:
 1. Access your bash as a root;
 2.  Access the file with the edtor of your choice (I use vim) and edit: \# vim /root/ .bashrc
 3. For me these edits work! When you finish the edits, save the file and restart bash. Save: (button) Esc :x (force sabe with x:!)
