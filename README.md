@@ -56,7 +56,7 @@ Change the color of bash and show the branch that is working
         unset color_prompt force_color_prompt
 
 **PLUS PLUS:**
-
+1. Open the Terminal to a specific Directory
 > Copy and paste at the end of the user's file .bashrc:
 
 ![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/03.png)
@@ -64,5 +64,17 @@ Change the color of bash and show the branch that is working
         #Open the Terminal to a specific Directory
         cd /myDirectory
         
+2. autocomplete from bash to git may not be working for ROOT
+> uncomment autocomplete option the end of the **Root's** file .bashrc:
 
-Bash tips: [Colors and formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting) (ANSI/VT100 Control sequences)
+        # enable programmable completion features (you don't need to enable
+        # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+        # sources /etc/bash.bashrc).
+        if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+            . /etc/bash_completion
+        fi
+
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/rootImg/04.png)
+
+
+- Info Bash tips: [Colors and formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting) (ANSI/VT100 Control sequences)
