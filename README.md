@@ -10,8 +10,6 @@ Change the color of bash and show the branch that is working
 > Steps:
 1. Access your bash as a root;
 
-![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/rootImg/01.png)
-
 2.  Access the file with the edtor of your choice (I use vim) and edit:
 
         # vim /root/.bashrc
