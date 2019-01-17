@@ -1,6 +1,8 @@
 # Linux Ubuntu - Changes
 Change the color of bash and show the branch that is working
 
+> **Note**: Before you begin, make the **Backup** your files!
+
 ## How it works for me:
 
 **Root .bashrc**
@@ -12,7 +14,7 @@ Change the color of bash and show the branch that is working
 
 2.  Access the file with the edtor of your choice (I use vim) and edit:
 
-\# vim /root/.bashrc
+        # vim /root/.bashrc
 
 ![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/rootImg/02.png)
 
@@ -42,7 +44,7 @@ Change the color of bash and show the branch that is working
 
 ![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/01.png)
 
-3. For me these edits work, when you finish the edits, save the file and restart bash.ls
+3. For me these edits work! When you finish the edits, save the file and restart bash. Save: (button) Esc to exit the insert, and :x to save.
 
 ![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/02.png)
 
@@ -57,9 +59,12 @@ Change the color of bash and show the branch that is working
 
 **PLUS PLUS:**
 
-> Copy and paste in the end file user .bashrc:
+> Copy and paste at the end of the user's file .bashrc:
 
 ![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/03.png)
 
         #Open the Terminal to a specific Directory
-        cd /workspaceDev
+        cd /myDirectory
+        
+
+Bash tips: [Colors and formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting) (ANSI/VT100 Control sequences)
