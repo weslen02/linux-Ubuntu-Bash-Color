@@ -44,5 +44,5 @@ Change the color of bash and show the branch that is working
 
 > Copy and paste in the end file .bashrc:
 
-    #Open the Terminal to a specific Directory
-    cd /workspaceDev
+       #Open the Terminal to a specific Directory
+       cd /workspaceDev
