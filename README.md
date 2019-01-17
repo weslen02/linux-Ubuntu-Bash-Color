@@ -10,7 +10,6 @@ Change the color of bash and show the branch that is working
 2.  Access the file with the edtor of your choice (I use vim) and edit: \# vim /root/ .bashrc
 3. For me these edits work! When you finish the edits, save the file and restart bash. Save: (button) Esc :x (force sabe with x:!)
 
-'
 
         if [ "$color_prompt" = yes ]; then
             #COPIED FROM ELSE THAT IS NOT BEING USED
@@ -24,14 +23,13 @@ Change the color of bash and show the branch that is working
         unset color_prompt force_color_prompt
       
 
-> **User .bashrc**
-Steps:
+**User .bashrc**
+
+> Steps:
 
 1. Access your bash as a root;
 2. Access the file with the edtor of your choice (I use vim) and edit: # vim /home/userName .bashrc
 3. For me these edits work, when you finish the edits, save the file and restart bash.
-
-'
 
         if [ "$color_prompt"  = yes ];  then
              #NEW MODIFIED TO THE GIT
@@ -45,8 +43,6 @@ Steps:
 **PLUS PLUS:**
 
 > Copy and paste in the end file .bashrc:
-
-'
 
     #Open the Terminal to a specific Directory
     cd /workspaceDev
