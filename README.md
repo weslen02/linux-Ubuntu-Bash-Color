@@ -40,12 +40,11 @@ Change the color of bash and show the branch that is working
 1. Access your bash as a root;
 2. Access the file with the edtor of your choice (I use vim) and edit: # vim /home/userName/.bashrc
 
-![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/03.png)
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/01.png)
 
 3. For me these edits work, when you finish the edits, save the file and restart bash.ls
 
-![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/03.png)
-
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/02.png)
 
         if [ "$color_prompt"  = yes ];  then
              #NEW MODIFIED TO THE GIT
