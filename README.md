@@ -7,8 +7,18 @@ Change the color of bash and show the branch that is working
 
 > Steps:
 1. Access your bash as a root;
-2.  Access the file with the edtor of your choice (I use vim) and edit: \# vim /root/ .bashrc
-3. For me these edits work! When you finish the edits, save the file and restart bash. Save: (button) Esc :x (force sabe with x:!)
+
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/rootImg/01.png)
+
+2.  Access the file with the edtor of your choice (I use vim) and edit:
+
+\# vim /root/.bashrc
+
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/rootImg/02.png)
+
+3. For me these edits work! When you finish the edits, save the file and restart bash. Save: (button) Esc to exit the insert, and :x to save.
+
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/rootImg/03.png)
 
 
         if [ "$color_prompt" = yes ]; then
@@ -28,8 +38,14 @@ Change the color of bash and show the branch that is working
 > Steps:
 
 1. Access your bash as a root;
-2. Access the file with the edtor of your choice (I use vim) and edit: # vim /home/userName .bashrc
-3. For me these edits work, when you finish the edits, save the file and restart bash.
+2. Access the file with the edtor of your choice (I use vim) and edit: # vim /home/userName/.bashrc
+
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/03.png)
+
+3. For me these edits work, when you finish the edits, save the file and restart bash.ls
+
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/03.png)
+
 
         if [ "$color_prompt"  = yes ];  then
              #NEW MODIFIED TO THE GIT
@@ -42,7 +58,9 @@ Change the color of bash and show the branch that is working
 
 **PLUS PLUS:**
 
-> Copy and paste in the end file .bashrc:
+> Copy and paste in the end file user .bashrc:
+
+![enter image description here](https://raw.githubusercontent.com/weslen02/linux-Ubuntu-Bash-Color/master/img/userImg/03.png)
 
         #Open the Terminal to a specific Directory
         cd /workspaceDev
